@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "title": "Protein A",
+      "state": "activation"
+    },
+    {
+      "id": "B",
+      "title": "Protein B",
+      "state": "inhibition"
+    },
+    {
+      "id": "C",
+      "title": "Protein C",
+      "state": "neutral"
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "title": "activates",
+      "state": "activation"
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "title": "inhibits",
+      "state": "inhibition"
+    }
+  ]
+}
